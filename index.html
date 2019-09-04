@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<LINK REL="stylesheet" TYPE="text/css" MEDIA="(max-width: 1024px)" HREF="home.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-light bg-light">
+			<a class="navbar-brand" href="#">
+				<img src="images/logo.png"  alt="logo">
+			</a>
+		</nav>
+		
+		<div class="login">
+			<div class="container">
+				<h1>Login</h1>
+				<form action="authenticate.php" method="post">
+					<label for="username">
+						<i class="fas fa-user"></i>
+					</label>
+					<input type="text" name="username" placeholder="Username" id="username" required>
+					<label for="password">
+						<i class="fas fa-lock"></i>
+					</label>
+					<input type="password" name="password" placeholder="Password" id="password" required>
+					<input type="submit" value="Login">
+				</form>
+			</div>
+		</div>
+		
+		<div class="example1">
+			<h3>Developed By Engineeering Department </h3>
+		</div>
+		
+		<div class="dev">
+			<a href=developer.html><i class="far fa-dot-circle"></i></a>
+		</div>
+	</body>
+</html>

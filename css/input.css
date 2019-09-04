@@ -1,0 +1,242 @@
+/*for home page*/
+.navbar-default {
+      background-color: #f8f8f8;
+      margin-bottom: 0;
+	  height:100px;
+  }
+
+.navbar img{
+    top: 8px;
+    right: 16px;
+	width: 200px;
+	height: 80px;
+}
+
+ ul {
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+li {
+    list-style-type: none;
+	margin-bottom:20px;
+}
+
+
+#main{
+   margin-left: 28px;
+   margin-top: 35px;
+}
+#main > ul {
+  list-style-type: none;
+  margin-top:0px;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 30%;
+  overflow: auto;
+}
+#main > ul:nth-child(1){margin-bottom:20px;}
+
+.forback {
+    border: 1px;
+    background-color: #46b8da;
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.forback:hover {
+    color: #fff;
+	background-color: #31b0d5;
+	border-color: #269abc;
+    text-decoration: none;
+}
+
+
+.fas {
+    margin-right: 10px;
+}
+#printTable>table{
+	width: 100%;
+	border="2" ;
+	cellpadding="2";
+	cellspacing='1';
+}
+td, th {
+    padding: 5px 11px 3px -1px;
+    text-align: center;
+}
+#myModal>.modal-dialog>.modal-content>.modal-body table, #myMod>.modal-dialog>.modal-content>.modal-body table{
+	width: 100%;
+	border="2" ;
+	cellpadding="2";
+	cellspacing='1';
+}
+
+.forinput>li{
+    font-size: 100%;
+    line-height: 1.15;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    padding-right: 25px;
+	
+}
+input {margin: 10px 10px 8px 14px;
+}
+
+.search-container input[type=text] {
+  padding: 7px;
+  font-size: 11px;
+  border: none;
+  margin-top: 8px;
+}
+
+.search-container button {
+ 
+  padding: 7px 10px;
+  margin-top: 8px;
+  margin-left: -14px;
+  background: #ddd;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.search-container> button:hover {
+  background: #ccc;
+}
+
+  .search-container input[type=text] {
+    border: 1px solid #ccc;  
+  }
+#Total>a {
+    font-size: 2em;
+    margin-bottom: 25px;
+    margin-left: 695px;
+color: black;}
+
+.pagination{
+	border: 1px solid;
+	margin-right: 5px;
+	padding: 4px 12px;
+	font-size: 20px;
+}
+.page{
+	
+	margin-top: 10px;
+	display: inline-block;
+}
+#printTable>.page>a{
+	text-decoration:none;
+}
+h3{text-align:center;}
+
+
+
+
+/*Responsive*/
+
+@media (min-width: 320px) and (max-width: 480px){
+	.navbar img {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    width: 140px;
+    height: 59px;
+}
+	th{
+		height: 25px;
+		}
+	table {
+    font-size: 8px;
+    margin-left: -38px;
+}
+	
+	.search-container input[type="text"] {
+		margin-left: 25px;
+	}
+	.forback {
+    border: 1px;
+    background-color: #46b8da;
+    padding: 2px 4px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: -20px;
+	}
+	form{margin-top:-34px;
+		margin-bottom: 20px;
+	}
+	td {
+    padding: 2px;
+}
+.pagination {
+    border: 1px solid;
+    margin-right: 5px;
+    padding: 0px 5px;
+    font-size: 15px;
+}
+
+}
+
+@media (min-width: 360px) and (max-width: 640px) and (orientation : landscape){
+	.search-container{
+		margin-left:50px;
+	}
+	.search-container {
+    margin-left: 100px;
+    margin-top: -32px;
+    margin-bottom: 15px;
+
+	}
+table{
+		font-size:8px;
+		margin-left:-25px;
+		}
+		.tano{
+			margin-top:-15px;
+		}
+}
+
+@media (min-width: 360px) and (max-width: 640px) and (orientation : portrait){
+	.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    background: #ddd;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    margin-left: -14px;
+}
+.search-container input[type="text"] {
+    margin-left: 40px;
+}
+table {
+    font-size: 9px;
+    margin-left: -30px;
+}
+.forback {
+	padding: 5px 5px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
